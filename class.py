@@ -4,6 +4,8 @@ class UserAccount :
     """
 
     def __init__(self, username, password, secret):
+        self.password=password
+        self.secret=secret
         
         """
         Initialize the UserAccount object:
